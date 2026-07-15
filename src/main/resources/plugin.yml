@@ -1,0 +1,25 @@
+name: AdBoard
+version: '1.0.0'
+main: com.example.adboard.AdBoardPlugin
+api-version: '26.2'
+author: YourName
+description: Lets players post and browse service ads with /ad
+
+commands:
+  ad:
+    description: Post, remove, and browse service ads
+    usage: /ad <post|remove|browse|list|help>
+
+permissions:
+  adboard.post:
+    description: Allows posting a service ad
+    default: true
+  adboard.remove:
+    description: Allows removing your own ad
+    default: true
+  adboard.browse:
+    description: Allows browsing ads
+    default: true
+  adboard.admin:
+    description: Allows reload and clearing other players' ads
+    default: op

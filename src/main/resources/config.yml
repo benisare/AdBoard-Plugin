@@ -1,0 +1,6 @@
+# Maximum length (in characters) for an ad message
+max-message-length: 100
+
+# How many hours before an ad automatically expires and is removed.
+# Set to 0 to disable expiry (ads never expire automatically).
+ad-expiry-hours: 0
